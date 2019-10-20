@@ -87,7 +87,8 @@ body {
     display: inline-flex;
 }
 
-.upper-class {
+.container {
+    max-width: 1000px;
     margin-left: 100px;
     margin-top: 100px;
     flex-direction: column;
@@ -96,6 +97,13 @@ body {
 .yanarli {
     animation-name: button-animation;
     animation-duration: 4s;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-50{
+    margin-top: 50px;
 }
 
 @media (max-width: 950px) {
@@ -114,7 +122,7 @@ body {
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: bold;
     }
-    .upper-class {
+    .container {
         margin-left: 20px;
         margin-top: 20px;
         margin-right: 20px;
@@ -143,7 +151,7 @@ body {
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: bold;
     }
-    .upper-class {
+    .container {
         margin-left: 20px;
         margin-top: 20px;
         margin-right: 20px;
