@@ -10,6 +10,7 @@
 | 2     | How the git works, Introduction to CSS            | X                                   |
 | 3     | CSS                                               | [Simple Login Page](../tree/master/Week%203/Simple%20Login%20Page) |
 | 4     | CSS & Introduction to JS                          | [Spotify Landing Page](../tree/master/Week%204/Spotify%20Landing%20Page) |
+| 5     | Advanced JS & Using an API                        | [Github User Search Client](../tree/master/Week%205/github_user_search_client)|
 
 ## Resources To Keep Learning
 
@@ -37,3 +38,5 @@
 
 * [JS - MDN](https://developer.mozilla.org/tr/docs/Web/JavaScript)
 * [JS - W3S](https://www.w3schools.com/js/default.asp)
+
+### Week 5

@@ -1,0 +1,68 @@
+body {
+    padding: 10px 50px 0 50px;
+    text-align: center;
+}
+
+.search {
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid rgba(150, 150, 150, 0.4);
+    border-radius: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#user_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(150, 150, 150, 0.4);
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.1), 0 6px 20px 0 rgba(150, 150, 150, 0.1);
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.avatar {
+    width: 130px;
+    margin-top: 10px;
+}
+
+.login {
+    font-size: 18px;
+    margin: 0;
+}
+
+div, input, button, p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    border-radius: 16px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 700px) {
+    #user_container {
+        grid-template-columns: auto auto;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 470px) {
+    #user_container {
+        grid-template-columns: auto;
+    }
+}
